@@ -1,9 +1,9 @@
 const fs = require('fs');
 
-const countries         = require('./lib/countries');
 const areas             = require('./lib/area');
-const serviceProviders  = require('./lib/sp');
+const countries         = require('./lib/countries');
 const phoneNumbers      = require('./lib/numbers');
+const serviceProviders  = require('./lib/sp');
 
 module.exports = function(number){
 
@@ -33,7 +33,7 @@ module.exports = function(number){
   var province_and_city =  areas[area].split(' ');
 
   return {
-    country   : country ? country[2] : '中国',
+    country   : country ? country[2] : 'N/A',
     province  : province_and_city[0],
     city      : province_and_city[1],
     sp        : serviceProviders[type]
