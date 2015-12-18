@@ -1,0 +1,25 @@
+{
+  "name": "phone-number",
+  "version": "1.0.1",
+  "description": "detect area from phone number ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/phone-number.git"
+  },
+  "author": "lsong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/song940/phone-number/issues"
+  },
+  "homepage": "https://github.com/song940/phone-number#readme",
+  "keywords": [
+    "mobile",
+    "phone",
+    "number",
+    "area"
+  ]
+}
