@@ -1,10 +1,10 @@
 {
   "name": "phone-number",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "detect area from phone number ",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/song940/phone-number#readme",
   "keywords": [
+    "china",
     "mobile",
     "phone",
     "number",
     "area"
-  ]
+  ],
+  "dependencies": {
+    "china-mobile-phone-regexp": "*"
+  }
 }

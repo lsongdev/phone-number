@@ -1,6 +1,9 @@
-## phone-number ![NPM version](https://img.shields.io/npm/v/phone-number.svg?style=flat)
+## phone-number
 
-detect area from phone number
+> detect area from phone number
+
+![NPM version](https://img.shields.io/npm/v/phone-number.svg?style=flat)
+[![Build Status](https://travis-ci.org/song940/phone-number.svg?branch=master)](https://travis-ci.org/song940/phone-number)
 
 ### Installation
 ```bash
@@ -9,10 +12,10 @@ $ npm install phone-number --save
 
 ### Example
 ```js
-var phoneNumber = require('phone-number');
+const phone = require('phone-number');
 
-phoneNumber('18510100102'); // { province: '北京', city: '北京', sp: '中国移动' }
-phoneNumber('18810516991'); // { province: '北京', city: '北京', sp: '中国联通' }
+phone('18510100102'); // { province: '北京', city: '北京', sp: '中国移动' }
+phone('18810516991'); // { province: '北京', city: '北京', sp: '中国联通' }
 ```
 
 ### API
